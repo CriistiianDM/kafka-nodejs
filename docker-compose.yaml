@@ -1,0 +1,8 @@
+services:
+  # Kafka Server
+  kafka_server:
+    build:
+      context: .
+      dockerfile: kafka-server/Dockerfile.local
+    ports:
+      - "9092:9092"

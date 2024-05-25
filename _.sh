@@ -1,0 +1,1 @@
+kafka-topics --bootstrap-server kafka-broker-pod:9092 --create --topic univalle-ideas
